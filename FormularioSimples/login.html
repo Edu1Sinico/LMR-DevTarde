@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <iframe src="header.html" frameborder="1" width="1900"></iframe>
+    <center>
+        <h1>Faça seu Login.</h1>
+    </center>
+    <hr>
+    <form action="index.html">
+        <!--Cria uma label com idetificação "lemail"-->
+        <label for="lemail">Digite seu E-mail: </label>
+        <!-------------------------------------------->
+        <br>
+        <!--Input cria uma textBox com vários tipos: "email que só aceita @", "password que esconde a senha", "text que é texto."-->
+        <input type="email" name="lemail" id="lemail">
+        <!--name é identificação-->
+        <!--id é a "chave primaria" do código, só possuí um, e está ligado com o "for" da label.-->
+        <!------------------------------------------------------------------------------------------------------------------------->
+        <br>
+        <label for="lsenha">Digite sua Senha: </label>
+        <br>
+        <input type="password" name="lsenha" id="lsenha">
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+        <hr>
+        <iframe src="footer.html" frameborder="1" width="1900" ></iframe>
+</body>
+
+</html>
