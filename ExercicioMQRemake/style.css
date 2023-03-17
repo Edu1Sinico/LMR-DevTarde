@@ -1,0 +1,31 @@
+/*-------------------------------------------------------------------*/
+/*Header*/
+body{
+    background-color: rgb(10, 10, 104);
+    margin: 0px;
+}
+
+.menu {
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+}
+
+.menu link{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+}
+
+.menu .logo{
+    width: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu .hamburguer{
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-------------------------------------------------------------------*/
