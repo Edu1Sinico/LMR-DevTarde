@@ -35,21 +35,44 @@ body{
     justify-content: space-evenly;    
 }
 /*----------------------------------------*/
-/*--------------- Section ----------------*/
+/*---------------- Section ---------------*/
 
-.p1 .Img1{
-    width: 512px;
+.p1{
+    background-color:rgb(124, 142, 160) ;
+    border-radius: 35px;
+    padding: 50px;
+    margin-top: 50px;
     display: flex;
-    justify-content: flex-start;
-    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 20%;
 }
 
-.p1 {
-    display: flex;
-    font-size: 20px; 
-    color: black;   
+.p1 .imagem img{
+    width: 365px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.p1 .info{
+
+    text-align: center;
+    padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: flex-end;
-
+    background-color: rgb(138, 158, 179); 
+    border-radius: 15px;
 }
 
+.p1 .info h1{
+    display: flex;
+    font-size: 30px;
+}
+
+/*----------------------------------------*/
+/*------------- Media Query --------------
+
+@media screen  and (max-width: 768px)
+{
+    .p1 info{font-size: 100%; text-align: center; margin-top: 20px;}
+}
+----------------------------------------*/
