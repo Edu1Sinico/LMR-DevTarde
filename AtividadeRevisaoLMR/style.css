@@ -16,6 +16,7 @@ body{
 
 .nav img{
     height: 70px;
+    padding-left: 10px;
 }
 
 .nav .linkMenu{
@@ -30,9 +31,11 @@ body{
 }
 
 .nav .menu{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;    
+    color: orange;   
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*----------------------------------------*/
 /*---------------- Section ---------------*/
@@ -43,21 +46,31 @@ body{
     padding: 50px;
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     margin-left: 250px;
     margin-right: 250px;
     padding-bottom: 20%;
+    margin-bottom: 50px;
 }
 
+/* .p1 .imagem{ 
+    margin-right: 30px;
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(138, 158, 179);
+}*/
+
 .p1 .imagem img{
+    display: flex;
     width: 365px;
     border-radius: 15px;
-    margin-right: 30px;
 }
 
 .p1 .info{
-
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(138, 158, 179); 
     border-radius: 15px;
@@ -69,10 +82,13 @@ body{
 }
 
 /*----------------------------------------*/
-/*------------- Media Query --------------
+/*------------- Media Query --------------*/
 
 @media screen  and (max-width: 768px)
-{
-    .p1 info{font-size: 100%; text-align: center; margin-top: 20px;}
+{ 
+    .p1 { margin-left: auto; margin-right: auto; flex-direction: column; align-items: center;}
+    .p1 .imagem img{width: 250px; height: 250px;}
+    .p1 .info{font-size: 100%; text-align: center; margin-top: 20px}
+    .p1 .info h1{font-size: 100%; align-self: center;}
 }
-----------------------------------------*/
+/*----------------------------------------*/
