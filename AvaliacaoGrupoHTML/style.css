@@ -1,0 +1,53 @@
+/* --------------- Header --------------- */
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.menu{
+    background-color: rgb(163, 189, 214);
+    display: flex;
+    justify-content: space-between;
+    /*            ⇑   ⇐   ⇓   ⇒    */
+    box-shadow: 5px 0px 5px 4px rgb(124, 124, 124);
+}
+
+.menu img{
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu .menuLink{
+    display: flex;
+    align-items: center;
+}
+
+.menu .menuLink .LinkMenu{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu .cadastro{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menu .cadastro .button1{
+    margin: 5px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border-color: black;
+}
+
+.menu .cadastro .button2{
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+}
+
